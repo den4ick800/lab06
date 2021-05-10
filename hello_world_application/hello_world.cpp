@@ -1,8 +1,14 @@
 #include <iostream>
-
-#include "formatter_ex.h"
-
+#include <string>
 int main()
 {
-    formatter(std::cout, "hello, world!");
+//create for getting name
+String name_1;
+//ask for name
+std::cout<<"Write your name:";
+std::cin>>name_1;
+//write answer
+std::cout<<"Hello, world!!!"<<name<<std::endl;
+return 0;
 }
+
