@@ -38,7 +38,7 @@ script:
 - cmake -H. -B_build
 - cmake --build _build
 - cmake --build _build --target solver
-- cmake --build _build --target package_source
+- cmake --build _build --target package-source
 - cd _build
 - if [ "$TRAVIS_OS_NAME" = "osx" ]; then cpack -G DragNDrop  ;fi
 - if [ "$TRAVIS_OS_NAME" = "linux" ]; then cpack -G DEB  ;fi
